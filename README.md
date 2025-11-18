@@ -10,10 +10,19 @@ An intelligent Android application that uses TensorFlow Lite and machine learnin
 ## 📱 App Preview
 
 <div align="center">
-  
-| Classification Interface | Results Display | Camera Capture |
-|:------------------------:|:---------------:|:--------------:|
-| *App Screenshot 1* | *App Screenshot 2* | *App Screenshot 3* |
+
+-- Home page
+
+![pic1](https://i.postimg.cc/90pZV95w/1.jpg)
+
+-- Property+Listing
+
+![pic2](https://i.postimg.cc/52jLdjPN/2.jpg)
+
+-- Admin Dashboard
+
+![pic3](https://i.postimg.cc/52jLdjPN/2.jpg)
+
 
 </div>
 
