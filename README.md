@@ -11,15 +11,15 @@ An intelligent Android application that uses TensorFlow Lite and machine learnin
 
 <div align="center">
 
--- Home page
+-- Chips 01
 
 ![pic1](https://i.postimg.cc/90pZV95w/1.jpg)
 
--- Property+Listing
+-- Chips 02
 
-![pic2](https://i.postimg.cc/52jLdjPN/2.jpg)
+![pic2](https://i.postimg.cc/W1Kr2jK8/3.jpg)
 
--- Admin Dashboard
+-- Biscuits
 
 ![pic3](https://i.postimg.cc/52jLdjPN/2.jpg)
 
