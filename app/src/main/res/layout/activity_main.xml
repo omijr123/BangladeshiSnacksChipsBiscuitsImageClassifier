@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- App Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:letterSpacing="0.02" />
+
+    <!-- Image Preview Section -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snack Preview"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/image_border"
+                android:src="@android:drawable/ic_menu_camera"
+                android:contentDescription="@string/content_description"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap camera button below to capture"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Results Section -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Classification Result -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp"
+                android:background="@drawable/result_background"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/classified"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/classified_as"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#666" />
+
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take a picture to start"
+                    android:textColor="#FF5722"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+            <!-- Confidence Levels -->
+            <TextView
+                android:id="@+id/confidencesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confidences"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#4CAF50"
+                android:layout_marginBottom="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginBottom="12dp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/confidence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No classification data yet. Capture an image to see results."
+                    android:textColor="#424242"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6dp"
+                    android:padding="4dp" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Camera Button - Regular Button Version -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/take_picture"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:drawablePadding="8dp" />
+
+</LinearLayout>
