@@ -11,18 +11,21 @@ An intelligent Android application that uses TensorFlow Lite and machine learnin
 
 <div align="center">
 
--- Chips 01
+-- Interface --
 
-![pic1](https://i.postimg.cc/90pZV95w/1.jpg)
+![pic1](https://i.postimg.cc/RFxgZw8N/5.jpg)
 
--- Chips 02
+-- Chips 01 --
 
-![pic2](https://i.postimg.cc/W1Kr2jK8/3.jpg)
+![pic2](https://i.postimg.cc/90pZV95w/1.jpg)
 
--- Biscuits
+-- Chips 02 --
 
-![pic3](https://i.postimg.cc/52jLdjPN/2.jpg)
+![pic3](https://i.postimg.cc/W1Kr2jK8/3.jpg)
 
+-- Biscuits --
+
+![pic4](https://i.postimg.cc/52jLdjPN/2.jpg)
 
 </div>
 
