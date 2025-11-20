@@ -37,6 +37,10 @@ An intelligent Android application that uses TensorFlow Lite and machine learnin
 
 ![pic7](https://i.postimg.cc/qRHV74jZ/3.png)
 
+-- Android Studio ( Final Outcome ) --
+
+![pic8](https://i.postimg.cc/T1FYQZR2/Screenshot-2025-11-20-235839.png)
+
 </div>
 
 ## ✨ Features
